@@ -9,12 +9,26 @@
     "armour": 0,
     "armourpen": 0,
     "evo": ["CoralMite"],
-    "hitbox": { "x": 20, "y": 25 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 20,
+      "y": 25
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false,
-    "abilities": { "effects": [], "active": [], "passive": ["Speed"], "immunity": [] }
+    "abilities": {
+      "effects": [],
+      "active": [],
+      "passive": ["Speed"],
+      "immunity": []
+    }
   },
   "CoralMite": {
     "id": 1,
@@ -26,12 +40,26 @@
     "armour": 0,
     "armourpen": 0,
     "evo": ["Nudiray"],
-    "hitbox": { "x": 35, "y": 35 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 35,
+      "y": 35
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false,
-    "abilities": { "effects": [], "active": [], "passive": ["Ravage"], "immunity": [] }
+    "abilities": {
+      "effects": [],
+      "active": [],
+      "passive": ["Ravage"],
+      "immunity": []
+    }
   },
   "Nudiray": {
     "id": 2,
@@ -43,12 +71,26 @@
     "armour": 1,
     "armourpen": 0,
     "evo": ["Hornetaur", "DeepWaterRaider"],
-    "hitbox": { "x": 25, "y": 40 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 25,
+      "y": 40
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false,
-    "abilities": { "effects": [], "active": ["Effector"], "passive": ["Poisoner"], "immunity": [] },
+    "abilities": {
+      "effects": [],
+      "active": ["Effector"],
+      "passive": ["Poisoner"],
+      "immunity": []
+    },
     "data": ["poison"]
   },
   "Hornetaur": {
@@ -61,12 +103,26 @@
     "armour": 0,
     "armourpen": 0,
     "evo": ["CoralRaider", "Sulphurpod"],
-    "hitbox": { "x": 30, "y": 45 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 1, "oxygen": 1 },
+    "hitbox": {
+      "x": 30,
+      "y": 45
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 1,
+      "oxygen": 1
+    },
     "walk": false,
     "active": false,
-    "abilities": { "effects": [], "active": ["Dig"], "passive": [], "immunity": [] }
+    "abilities": {
+      "effects": [],
+      "active": ["Dig"],
+      "passive": [],
+      "immunity": []
+    }
   },
   "CoralRaider": {
     "id": 4,
@@ -78,12 +134,26 @@
     "armour": 1,
     "armourpen": 0,
     "evo": ["Sutorai"],
-    "hitbox": { "x": 30, "y": 20 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 30,
+      "y": 20
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false,
-    "abilities": { "effects": [], "active": [], "passive": ["Raid"], "immunity": [] }
+    "abilities": {
+      "effects": [],
+      "active": [],
+      "passive": ["Raid"],
+      "immunity": []
+    }
   },
   "Sutorai": {
     "id": 5,
@@ -95,12 +165,26 @@
     "armour": 1,
     "armourpen": 0,
     "evo": ["GrandeFanFan", "GoldMite", "Phantom"],
-    "hitbox": { "x": 40, "y": 60 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 40,
+      "y": 60
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false,
-    "abilities": { "effects": [], "active": ["Effector"], "passive": [], "immunity": [] },
+    "abilities": {
+      "effects": [],
+      "active": ["Effector"],
+      "passive": [],
+      "immunity": []
+    },
     "data": ["pincher"]
   },
   "GrandeFanFan": {
@@ -113,12 +197,26 @@
     "armour": 1,
     "armourpen": 0,
     "evo": ["CoralFatFish", "Hammai"],
-    "hitbox": { "x": 50, "y": 35 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 50,
+      "y": 35
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false,
-    "abilities": { "effects": [], "active": [], "passive": [], "immunity": [] }
+    "abilities": {
+      "effects": [],
+      "active": [],
+      "passive": [],
+      "immunity": []
+    }
   },
   "CoralFatFish": {
     "id": 7,
@@ -130,12 +228,26 @@
     "armour": 1,
     "armourpen": 0,
     "evo": ["CarpetChlanth", "UlyssesRaider", "PrimordialBaterial"],
-    "hitbox": { "x": 55, "y": 60 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 55,
+      "y": 60
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": true,
-    "abilities": { "effects": ["Poison"], "active": [], "passive": [], "immunity": [] }
+    "abilities": {
+      "effects": ["Poison"],
+      "active": [],
+      "passive": [],
+      "immunity": []
+    }
   },
   "CarpetChlanth": {
     "id": 8,
@@ -147,12 +259,26 @@
     "armour": 0.9,
     "armourpen": 0,
     "evo": ["Piniatapi", "StarGazer"],
-    "hitbox": { "x": 30, "y": 30 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 30,
+      "y": 30
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false,
-    "abilities": { "effects": [], "active": ["Effector"], "passive": ["Poisoner"], "immunity": [] },
+    "abilities": {
+      "effects": [],
+      "active": ["Effector"],
+      "passive": ["Poisoner"],
+      "immunity": []
+    },
     "data": ["oxygen"]
   },
   "Moreinagi": {
@@ -165,15 +291,27 @@
     "armour": 1,
     "armourpen": 0,
     "evo": [],
-    "hitbox": { "x": 45, "y": 45 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 45,
+      "y": 45
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false,
-    "abilities": { "effects": ["Grab"], "active": ["Shake"], "passive": [], "immunity": [] }
-  }
-}
-{
+    "abilities": {
+      "effects": ["Grab"],
+      "active": ["Shake"],
+      "passive": [],
+      "immunity": []
+    }
+  },
   "UlyssesRaider": {
     "id": 10,
     "tier": 9,
@@ -184,12 +322,26 @@
     "armour": 1,
     "armourpen": 0,
     "evo": ["Moreinagi", "GreatWhiteRaider", "MiteRaider"],
-    "hitbox": { "x": 45, "y": 75 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 45,
+      "y": 75
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": true,
-    "abilities": { "effects": ["Grab", "Bleed"], "active": [], "passive": [], "immunity": [] }
+    "abilities": {
+      "effects": ["Grab", "Bleed"],
+      "active": [],
+      "passive": [],
+      "immunity": []
+    }
   },
   "GreatWhiteRaider": {
     "id": 11,
@@ -201,12 +353,26 @@
     "armour": 1,
     "armourpen": 0,
     "evo": [],
-    "hitbox": { "x": 45, "y": 75 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 45,
+      "y": 75
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": true,
-    "abilities": { "effects": ["Grab"], "active": ["Charge"], "passive": [], "immunity": [] }
+    "abilities": {
+      "effects": ["Grab"],
+      "active": ["Charge"],
+      "passive": [],
+      "immunity": []
+    }
   },
   "Skeweropod": {
     "id": 12,
@@ -218,12 +384,26 @@
     "armour": 0.9,
     "armourpen": 0.75,
     "evo": [],
-    "hitbox": { "x": 45, "y": 75 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 45,
+      "y": 75
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false,
-    "abilities": { "effects": ["Bleed"], "active": ["Charge"], "passive": [], "immunity": [] }
+    "abilities": {
+      "effects": ["Bleed"],
+      "active": ["Charge"],
+      "passive": [],
+      "immunity": []
+    }
   },
   "Poibanch": {
     "id": 13,
@@ -235,12 +415,26 @@
     "armour": 1,
     "armourpen": 0,
     "evo": [],
-    "hitbox": { "x": 40, "y": 70 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 40,
+      "y": 70
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false,
-    "abilities": { "effects": [], "active": [], "passive": ["Morph"], "immunity": [] }
+    "abilities": {
+      "effects": [],
+      "active": [],
+      "passive": ["Morph"],
+      "immunity": []
+    }
   },
   "PrimordialBaterial": {
     "id": 14,
@@ -252,12 +446,26 @@
     "armour": 1,
     "armourpen": 0,
     "evo": ["Skeweropod", "Poibanch"],
-    "hitbox": { "x": 40, "y": 40 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 1, "oxygen": 20 },
+    "hitbox": {
+      "x": 40,
+      "y": 40
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 1,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false,
-    "abilities": { "effects": [], "active": [], "passive": ["Morph"], "immunity": [] }
+    "abilities": {
+      "effects": [],
+      "active": [],
+      "passive": ["Morph"],
+      "immunity": []
+    }
   },
   "Piniatapi": {
     "id": 15,
@@ -269,15 +477,22 @@
     "armour": 0.5,
     "armourpen": 0,
     "evo": [],
-    "hitbox": { "x": 75, "y": 75 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 75,
+      "y": 75
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false,
     "immunity": ["Grabbed"]
-  }
-}
-{
+  },
   "Blurp": {
     "id": 16,
     "tier": 1,
@@ -288,12 +503,26 @@
     "armour": 1,
     "armourpen": 0,
     "evo": ["Mothie"],
-    "hitbox": { "x": 30, "y": 25 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 30,
+      "y": 25
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false,
-    "abilities": { "effects": [], "active": [], "passive": [], "immunity": [] }
+    "abilities": {
+      "effects": [],
+      "active": [],
+      "passive": [],
+      "immunity": []
+    }
   },
   "Mothie": {
     "id": 17,
@@ -305,9 +534,18 @@
     "armour": 0.5,
     "armourpen": 0,
     "evo": ["Deptheye"],
-    "hitbox": { "x": 35, "y": 35 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 35,
+      "y": 35
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false
   },
@@ -321,9 +559,18 @@
     "armour": 1,
     "armourpen": 0,
     "evo": ["Hornetaur", "DeepWaterRaider"],
-    "hitbox": { "x": 30, "y": 55 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 30,
+      "y": 55
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false
   },
@@ -337,9 +584,18 @@
     "armour": 1,
     "armourpen": 0,
     "evo": ["CoralRaider", "Sulphurpod"],
-    "hitbox": { "x": 30, "y": 50 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 30,
+      "y": 50
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false
   },
@@ -353,9 +609,18 @@
     "armour": 0.9,
     "armourpen": 0,
     "evo": ["CoralFatFish", "Hammai"],
-    "hitbox": { "x": 50, "y": 35 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 50,
+      "y": 35
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false
   },
@@ -369,9 +634,18 @@
     "armour": 1,
     "armourpen": 0,
     "evo": ["Stagtaur", "Dokuika"],
-    "hitbox": { "x": 30, "y": 60 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 30,
+      "y": 60
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false
   },
@@ -385,9 +659,18 @@
     "armour": 0,
     "armourpen": 0,
     "evo": ["CoralFatFish", "Hammai"],
-    "hitbox": { "x": 50, "y": 25 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 1, "oxygen": 20 },
+    "hitbox": {
+      "x": 50,
+      "y": 25
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 1,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false
   },
@@ -401,9 +684,18 @@
     "armour": 0,
     "armourpen": 0,
     "evo": ["Magmite", "Peafishimea"],
-    "hitbox": { "x": 45, "y": 75 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 45,
+      "y": 75
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": true
   },
@@ -417,9 +709,18 @@
     "armour": 0,
     "armourpen": 0,
     "evo": ["PeriscopeFish", "TriWebb"],
-    "hitbox": { "x": 20, "y": 75 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 20,
+      "y": 75
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false
   },
@@ -433,9 +734,18 @@
     "armour": 1,
     "armourpen": 0,
     "evo": ["Sutorai"],
-    "hitbox": { "x": 30, "y": 20 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 30,
+      "y": 20
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false
   },
@@ -449,14 +759,21 @@
     "armour": 0.85,
     "armourpen": 0,
     "evo": [],
-    "hitbox": { "x": 60, "y": 60 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 1 },
+    "hitbox": {
+      "x": 60,
+      "y": 60
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 1
+    },
     "walk": false,
     "active": false
-  }
-}
-{
+  },
   "Peafishimea": {
     "id": 27,
     "tier": 10,
@@ -467,9 +784,18 @@
     "armour": 1,
     "armourpen": 0,
     "evo": [],
-    "hitbox": { "x": 30, "y": 90 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 30,
+      "y": 90
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false
   },
@@ -483,9 +809,18 @@
     "armour": 0,
     "armourpen": 0,
     "evo": [],
-    "hitbox": { "x": 10, "y": 90 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 10,
+      "y": 90
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false
   },
@@ -499,13 +834,21 @@
     "armour": 0,
     "armourpen": 0,
     "evo": [],
-    "hitbox": { "x": 55, "y": 55 },
-    "biome": { "pressure": true, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 55,
+      "y": 55
+    },
+    "biome": {
+      "pressure": true,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": false
-  }
-{
+  },
   "MiteRaider": {
     "id": 28,
     "tier": 10,
@@ -516,9 +859,18 @@
     "armour": 1,
     "armourpen": 0,
     "evo": [],
-    "hitbox": { "x": 30, "y": 60 },
-    "biome": { "pressure": false, "oxygen": false },
-    "time": { "pressure": 10, "oxygen": 20 },
+    "hitbox": {
+      "x": 30,
+      "y": 60
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": false
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 20
+    },
     "walk": false,
     "active": true
   },
@@ -532,11 +884,19 @@
     "armour": 1,
     "armourpen": 0,
     "evo": [],
-    "hitbox": { "x": 30, "y": 60 },
-    "biome": { "pressure": false, "oxygen": true },
-    "time": { "pressure": 10, "oxygen": 30 },
+    "hitbox": {
+      "x": 30,
+      "y": 60
+    },
+    "biome": {
+      "pressure": false,
+      "oxygen": true
+    },
+    "time": {
+      "pressure": 10,
+      "oxygen": 30
+    },
     "walk": false,
     "active": false
   }
 }
-
