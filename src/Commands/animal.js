@@ -4,6 +4,7 @@ const axios = require('axios');
 
 const Discord = require('discord.js');
 
+const doc = require('../Data/luxoral-animal_doc.json');
 
 module.exports = new Command({
 	name: 'animal',
@@ -12,6 +13,7 @@ module.exports = new Command({
 	async run(message, args) {
 		try {
 			args.map((s, i) => args[i] = s.charAt(0).toUpperCase() + s.slice(1));
+			const time = doc.time;
 			const sprites = (await axios.get('https://luxoral-prime.netlify.app/sprites.json')).data.creatures;
 			const creature = sprites[args.slice(1).join(' ')];
 			const url = `https://luxoral-prime.netlify.com/costume/${creature.biome}/${creature.costumes[0]}.png`;
@@ -43,12 +45,17 @@ module.exports = new Command({
 				.setFooter(author + embedtxt, authorimg)
 				.addFields({
 					name: 'Description',
-					value: '```' + txt + '```',
+					value: '`' + txt + '`',
 					inline: true,
 				}, {
 					name: 'Tier',
-					value: '```' + creature.tier + '```',
+					value: '`' + creature.tier + '`',
 					inline: true,
+				}, {
+					name: 'Time',
+					value: '`' + time + '`',
+					inline: true,
+
 				});
 
 			message.reply({
