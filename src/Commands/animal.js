@@ -23,12 +23,6 @@ module.exports = new Command({
 			const embedtxt = ' : CapThat#7448';
 			console.log('\n' + author + ' Used api!');
 			const arr = desc[args.slice(1).join(' ')].split(' ');
-			const {
-				speed,
-				dmg,
-				boosts,
-				hp,
-			} = doc.arr;
 			let txt = '';
 			let count = 0;
 			arr.forEach(s => {
@@ -59,7 +53,7 @@ module.exports = new Command({
 					inline: true,
 				}, {
 					name: 'Time',
-					value: '`' + time + speed + hp + dmg + boosts + '`',
+					value: '`' + time + '`',
 					inline: true,
 
 				});
