@@ -6,10 +6,10 @@ const Discord = require('discord.js');
 
 
 module.exports = new Command({
-	name: 'api',
-	description: 'api test',
+	name: 'animal',
+	description: 'animal test',
 	permission: 'SEND_MESSAGES',
-	async run(message, args, client) {
+	async run(message, args) {
 		try {
 			args.map((s, i) => args[i] = s.charAt(0).toUpperCase() + s.slice(1));
 			const sprites = (await axios.get('https://luxoral-prime.netlify.app/sprites.json')).data.creatures;
@@ -18,7 +18,7 @@ module.exports = new Command({
 			const desc = (await axios.get('https://luxoral-prime.netlify.app/creatures.json')).data;
 			const author = message.author.username;
 			const authorimg = message.author.avatarURL();
-			const embedtxt = ' : Loop#7448';
+			const embedtxt = ' : CapThat#7448';
 			console.log('\n' + author + ' Used api!');
 			const arr = desc[args.slice(1).join(' ')].split(' ');
 			let txt = '';
