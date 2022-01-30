@@ -14,8 +14,8 @@ module.exports = new Command({
 			embed
 				.setTitle('Evolution Tree')
 				.setDescription('Evolution Tree. Made by: `SuperBirdyFlee#4142`')
-				.setColor('BLURPLE')
-				.setImage('https://cdn.discordapp.com/attachments/733760312280612976/892244150890676264/lux_tree_1.png');
+				.setColor('RANDOM')
+				.setImage('https://cdn.discordapp.com/attachments/508794586752352258/934635875793535036/lux_tree_3.png');
 
 			message.reply({
 				embeds: [embed],
