@@ -805,9 +805,9 @@
     "tier": 10,
     "speed": 300,
     "hp": 700,
-    "dmg": 160,
+    "dmg": 120,
     "boosts": 3,
-    "armour": 0,
+    "armour": 1,
     "armourpen": 0,
     "evo": [],
     "hitbox": {
